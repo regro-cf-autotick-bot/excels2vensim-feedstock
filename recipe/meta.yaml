@@ -1,5 +1,5 @@
 {% set name = "excels2vensim" %}
-{% set version = "0.12.0" %}
+{% set version = "0.13.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/excels2vensim-{{ version }}.tar.gz
-  sha256: 851d784631b7d50e7b10f42557291a44a25b6cb5f9943c7b4d00e66c922a2c09
+  sha256: 9c3aebb457fc23c530b68ce01c3fbbfc9798fb6648163b9e763f55da73799bc6
 
 build:
   number: 0
@@ -20,7 +20,7 @@ requirements:
     - pip
     - python >=3.7
   run:
-    - pysd
+    - pysd >=3.0
     - python >=3.7
 
 test:
