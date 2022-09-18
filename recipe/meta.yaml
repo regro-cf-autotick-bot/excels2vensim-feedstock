@@ -11,7 +11,7 @@ source:
   sha256: 9c3aebb457fc23c530b68ce01c3fbbfc9798fb6648163b9e763f55da73799bc6
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -33,12 +33,12 @@ test:
     - pip
 
 about:
-  home: https://gitlab.com/eneko.martin.martinez/excels2vensim
+  home: https://github.com/SDXorg/excels2vensim
   summary: Easy write excel inputs in Vensim
   license: MIT
   license_file: LICENSE
   doc_url: https://excels2vensim.readthedocs.io/
-  dev_url: https://gitlab.com/eneko.martin.martinez/excels2vensim
+  dev_url: https://github.com/SDXorg/excels2vensim
 
 extra:
   recipe-maintainers:
