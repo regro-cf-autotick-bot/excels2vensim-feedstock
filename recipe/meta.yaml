@@ -1,5 +1,5 @@
 {% set name = "excels2vensim" %}
-{% set version = "0.13.0" %}
+{% set version = "0.13.1" %}
 
 
 package:
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/excels2vensim-{{ version }}.tar.gz
-  sha256: 9c3aebb457fc23c530b68ce01c3fbbfc9798fb6648163b9e763f55da73799bc6
+  sha256: 85af814758632f884ff13e3bd02583742ecbbd7a4feb06c7e5135026f75abf34
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
