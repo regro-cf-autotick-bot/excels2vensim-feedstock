@@ -1,7 +1,7 @@
 About excels2vensim
 ===================
 
-Home: https://gitlab.com/eneko.martin.martinez/excels2vensim
+Home: https://github.com/SDXorg/excels2vensim
 
 Package license: MIT
 
@@ -9,7 +9,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/excels2vensim-f
 
 Summary: Easy write excel inputs in Vensim
 
-Development: https://gitlab.com/eneko.martin.martinez/excels2vensim
+Development: https://github.com/SDXorg/excels2vensim
 
 Documentation: https://excels2vensim.readthedocs.io/
 
