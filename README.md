@@ -1,11 +1,11 @@
-About excels2vensim
-===================
+About excels2vensim-feedstock
+=============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/excels2vensim-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/SDXorg/excels2vensim
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/excels2vensim-feedstock/blob/main/LICENSE.txt)
 
 Summary: Easy write excel inputs in Vensim
 
